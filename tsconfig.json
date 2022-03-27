@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "esnext",
+        "jsx": "react-jsx",
+        "allowUmdGlobalAccess": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "strict": false,
+        "strictBindCallApply": true,
+        "strictNullChecks": false,
+        "noImplicitAny": false,
+        "noImplicitOverride": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "types": [
+            "node",
+        ],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "noStrictGenericChecks": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "noEmit": true,
+        "baseUrl": "src"
+    },
+    "include": [
+        "src/react-app-env.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx",
+    ],
+    "exclude": [
+        "craco.config.js",
+        "node_modules"
+    ]
+}
